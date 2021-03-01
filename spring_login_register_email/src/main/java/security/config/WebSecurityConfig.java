@@ -1,5 +1,6 @@
 package security.config;
 
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +14,7 @@ import service.AppUserService;
 
 
 @Configuration
-@RequiredArgsConstructor
+@AllArgsConstructor
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 

@@ -1,5 +1,6 @@
 package service;
 
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -10,8 +11,7 @@ import repository.AppUserRepository;
 
 
 @Service
-@Transactional(readOnly = true)
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class AppUserService  implements UserDetailsService {
 
     private final static String USER_NOT_FOUND_MSG = "%s로 된 이메일을 찾을 수 없습니다";

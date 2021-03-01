@@ -4,9 +4,8 @@ import lombok.*;
 
 import javax.persistence.Entity;
 
-@Entity
 @Getter
-@RequiredArgsConstructor
+@AllArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class RegistrationRequest {
