@@ -1,4 +1,4 @@
-package appuser;
+package com.example.spring_login_register_email.appuser;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

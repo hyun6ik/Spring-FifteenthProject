@@ -1,6 +1,6 @@
-package repository;
+package com.example.spring_login_register_email.repository;
 
-import appuser.AppUser;
+import com.example.spring_login_register_email.appuser.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

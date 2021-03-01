@@ -1,13 +1,13 @@
-package controller;
+package com.example.spring_login_register_email.controller;
 
+import com.example.spring_login_register_email.registration.RegistrationRequest;
+import com.example.spring_login_register_email.service.RegistrationService;
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import registration.RegistrationRequest;
-import service.RegistrationService;
 
 @RestController
 @RequestMapping(path = "api/v1/registration")

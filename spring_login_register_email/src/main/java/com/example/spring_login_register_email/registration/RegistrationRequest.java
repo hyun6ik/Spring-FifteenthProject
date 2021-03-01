@@ -1,8 +1,6 @@
-package registration;
+package com.example.spring_login_register_email.registration;
 
 import lombok.*;
-
-import javax.persistence.Entity;
 
 @Getter
 @AllArgsConstructor
@@ -12,6 +10,7 @@ public class RegistrationRequest {
 
     private final String firstName;
     private final String lastName;
-    private final String email;
     private final String password;
+    private final String email;
+
 }

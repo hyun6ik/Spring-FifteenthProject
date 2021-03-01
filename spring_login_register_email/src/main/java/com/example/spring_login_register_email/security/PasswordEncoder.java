@@ -1,4 +1,4 @@
-package security;
+package com.example.spring_login_register_email.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
