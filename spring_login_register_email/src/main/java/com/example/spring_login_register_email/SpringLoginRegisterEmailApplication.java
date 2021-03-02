@@ -8,6 +8,8 @@ public class SpringLoginRegisterEmailApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringLoginRegisterEmailApplication.class, args);
+
+
 	}
 
 }
