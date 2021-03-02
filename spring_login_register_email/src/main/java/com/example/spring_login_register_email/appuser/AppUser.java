@@ -67,7 +67,8 @@ public class AppUser implements UserDetails {
         return email;
     }
 
-    public String getfirstName() {
+
+    public String getFirstName() {
         return firstName;
     }
 

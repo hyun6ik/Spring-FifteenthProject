@@ -42,6 +42,6 @@ public class AppUserService implements UserDetailsService {
 
 //        TODO : 토큰 검증을 보낸다
 
-        return "it works";
+        return "성공!";
     }
 }
